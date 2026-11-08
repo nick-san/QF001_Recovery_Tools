@@ -16,7 +16,9 @@ Windows 公式ツール（`UpgradeDownload.exe`）をバイナリ解析・リバ
   * **`99-unisoc-brom.rules`**: 一般ユーザー権限で USB ポートを操作するための udev ルール
 * **`fdl/`**: BootROM 起動に必須の FDL ブートローダーバイナリ（`fdl1-dl.bin` / `fdl2-dl.bin`）
 * **`spreadtrum_flash/`**: UIS7862S 向けにプロトコル修正を施した BROM フラッシャー（Git サブモジュール）
-* **`docs/`**: 原理説明・ハードウェアピン配線図・復旧手順書
+* **`docs/`**:
+  * **`Brick_recovery_manual_JA.pdf`**: 4PDA QF001 文鎮復旧マニュアル（日本語完全翻訳版・写真図解入り）
+  * **`Brick_recovery_manual_RU.pdf`**: 4PDA 原版（ロシア語マニュアル）
 
 > [!NOTE]
 > ※ 本リポジトリには著作権保護の観点から純正ファームウェアのシステムイメージ（`stock_boot.img` や `stock_vbmeta.img`）は同梱していません。復旧スクリプト実行時はお手持ちのバックアップまたは公式 PAC 等から抽出したイメージをご指定ください。
