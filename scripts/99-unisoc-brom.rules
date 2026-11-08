@@ -1,0 +1,6 @@
+# Unisoc UIS7862S / SPRD BootROM & FDL Mode
+# VID: 0x1782 (Spreadtrum Communications Inc.)
+# PID: 0x4d00 (BootROM / FDL download mode)
+
+SUBSYSTEM=="usb", ATTRS{idVendor}=="1782", ATTRS{idProduct}=="4d00", MODE="0666", TAG+="uaccess"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="1782", ATTRS{idProduct}=="4d00", MODE="0666", TAG+="uaccess"

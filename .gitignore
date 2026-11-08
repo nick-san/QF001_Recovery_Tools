@@ -1,0 +1,15 @@
+# Compiled binaries
+spd_dump_*
+spd_dump_usb
+
+# Firmware & Partition Images (Do not publish vendor stock images)
+*.img
+*.bin.bak
+qfdata
+
+# Backups and temporary files
+*.log
+backup/
+dumps/
+*.bak
+.DS_Store

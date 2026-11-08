@@ -1,0 +1,3 @@
+[submodule "spreadtrum_flash"]
+	path = spreadtrum_flash
+	url = https://github.com/nick-san/spreadtrum_flash.git
